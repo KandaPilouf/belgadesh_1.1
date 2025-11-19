@@ -1,0 +1,29 @@
+:root{
+
+    ul.auto_dot{
+    max-width: ;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    }
+
+    ul.auto_dot li:before{
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:"....................................................................................................................................................................................................................................................................................."
+    }
+
+    ul.auto_dot span:first-child{
+    padding-right: 0.33rem;
+    background-color: var(--primary);
+    }
+
+    ul.auto_dot span+span{
+    float: right;
+    padding-left: 0.33rem;
+    font-weight: 450;
+    background-color: var(--primary);
+    }
+
+}

@@ -1,0 +1,75 @@
+@import './styles/import.css';
+
+/* CSS RESET */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* PRIMARY SITE COLOR */ 
+
+html{
+  /* background-color: var(--primary); */
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+}
+
+/* HERO SECTION TITLE */
+
+h1{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font-title);
+  font-size: var(--fs-h1);
+  letter-spacing: -7px;
+}
+
+/* COFFEE MENU */ 
+
+.coffee_menu{
+  display: flex;
+  flex-flow: nowrap;
+  margin: 5rem var(--spacing-menu);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffe_menu__text{
+  display: flex;
+  flex-flow: column nowrap ;
+  width: var(--w-menu-coffee);
+  height: var(--h-menu-coffee);
+  justify-content: center;
+}
+
+.coffee_menu__title{
+  font-family: var(--font-title);
+  font-size: var(--fs-title);
+  border-bottom: 1px solid black;
+}
+
+.reverse{
+  flex-flow: row-reverse;
+}
+
+ul{
+
+  font-family: var(--font-text);
+  font-size: var(--fs-md);
+  background-color: transparent;
+}
+
+img{
+  box-shadow: 5px 5px 50px -10px rgba(0, 0, 0, 50%);
+  border-radius: 25px;
+}

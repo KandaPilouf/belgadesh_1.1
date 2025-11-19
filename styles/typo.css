@@ -1,0 +1,13 @@
+:root{
+
+  /* RESPONSIVE TYPO */ 
+
+--fs-small: clamp(0.63rem, -0.01vi + 0.63rem, 0.62rem);
+--fs-base: clamp(0.94rem, 0.07vi + 0.92rem, 1rem);
+--fs-md: clamp(1.41rem, 0.24vi + 1.34rem, 1.62rem);
+--fs-l: clamp(2.11rem, 0.57vi + 1.94rem, 2.62rem);
+--fs-title: clamp(3.16rem, 1.19vi + 2.81rem, 4.24rem);
+--fs-xxl: clamp(4.75rem, 2.34vi + 4.04rem, 6.85rem);
+--fs-h1: clamp(7.12rem, 4.41vi + 5.8rem, 11.09rem);
+
+}
