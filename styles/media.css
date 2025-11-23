@@ -1,0 +1,36 @@
+:root {
+  @media only screen and (max-width: 600px) {
+    .coffee_menu {
+      flex-flow: column nowrap;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+
+      max-width: 80%;
+      height: auto;
+      justify-content: center;
+    }
+
+    .coffee_menu {
+      margin: 3rem;
+      gap: 3rem;
+    }
+
+    .coffe_menu__text {
+      width: 100%;
+      height: auto;
+    }
+
+    .coffe_menu__text__maki {
+      width: 50%;
+      height: auto;
+    }
+
+    .coffee_menu .coffee_menu__img {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
