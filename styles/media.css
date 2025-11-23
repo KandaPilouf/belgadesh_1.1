@@ -1,36 +1,86 @@
 :root {
   @media only screen and (max-width: 600px) {
-    .coffee_menu {
-      flex-flow: column nowrap;
-    }
+    /* MENU SECTION */
 
     img {
       display: block;
       margin: auto;
 
-      max-width: 80%;
+      max-width: 100%;
       height: auto;
       justify-content: center;
     }
 
     .coffee_menu {
+      flex-flow: column nowrap;
       margin: 3rem;
       gap: 3rem;
+      height: 100vh;
+    }
+
+    .coffee_menu__reverse {
+      margin: 3rem;
+      gap: 3rem;
+      height: 100vh;
     }
 
     .coffe_menu__text {
+      margin: 3rem;
+      gap: 1rem;
+      height: 100vh;
       width: 100%;
       height: auto;
     }
 
-    .coffe_menu__text__maki {
-      width: 50%;
+    .coffee_menu__text__maki {
+      margin: 3rem;
+      gap: 1rem;
+      height: 100vh;
+      width: 100%;
       height: auto;
     }
 
     .coffee_menu .coffee_menu__img {
       display: flex;
       justify-content: center;
+    }
+
+    /* ABOUT SECTION */
+
+    .about {
+      flex-flow: column nowrap;
+      height: 100vh;
+      justify-content: center;
+      gap: 3rem;
+    }
+
+    .about__text {
+      width: 100%;
+      height: auto;
+    }
+
+    .about__text__description {
+      font-size: var(--fs-md);
+    }
+
+    /* OPENING HOURS */
+
+    .opening_hours {
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    th,
+    td {
+      font-size: var(--fs-base);
+      padding: 0.5rem;
+    }
+
+    .opening_hours__title {
+      padding-left: 0.5rem;
     }
   }
 }

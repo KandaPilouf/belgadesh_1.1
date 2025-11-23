@@ -54,7 +54,7 @@ a {
 
 .coffee_menu {
   display: flex;
-  flex-flow:nowrap;
+  flex-flow: nowrap;
   margin: 5rem var(--spacing-menu);
   justify-content: center;
   gap: var(--gap-menu);
@@ -83,8 +83,6 @@ a {
   border-bottom: 1px solid black;
   white-space: nowrap;
 }
-
-
 
 .reverse {
   flex-flow: row-reverse;
