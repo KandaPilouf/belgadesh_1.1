@@ -1,12 +1,12 @@
 :root {
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1100px) {
     /* MENU SECTION */
 
     img {
       display: block;
       margin: auto;
 
-      max-width: 100%;
+      max-width: 85%;
       height: auto;
       justify-content: center;
     }
@@ -14,7 +14,7 @@
     .coffee_menu {
       flex-flow: column nowrap;
       margin: 3rem;
-      gap: 3rem;
+      gap: 2rem;
       height: 100vh;
     }
 
@@ -43,6 +43,12 @@
     .coffee_menu .coffee_menu__img {
       display: flex;
       justify-content: center;
+    }
+
+    .bg-color--coffee {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
     }
 
     /* ABOUT SECTION */
@@ -81,6 +87,19 @@
 
     .opening_hours__title {
       padding-left: 0.5rem;
+    }
+
+    footer {
+      margin: 0;
+      justify-content: center;
+    }
+  }
+
+  /* BACKGROUND IN MOBILE FORMAT */
+
+  @media only screen and (min-width: 1101px) {
+    .coffee_menu__paws img {
+      display: none;
     }
   }
 }
