@@ -13,7 +13,7 @@
 
     .coffee_menu {
       flex-flow: column nowrap;
-      margin: 3rem;
+      margin: 0 3rem;
       gap: 2rem;
       height: 100vh;
     }
