@@ -7,11 +7,11 @@ gsap.registerPlugin(ScrollTrigger);
 addEventListener("DOMContentLoaded", (event) => {
   gsap.fromTo(
     ".anim_fade_in_right_maki",
-    { x: -30, opacity: 0 },
+    { x: -60, opacity: 0 },
     {
       scrollTrigger: {
-        trigger: ".coffee_menu__img",
-        start: "top, center",
+        trigger: ".coffee_menu",
+        start: "bottom, center",
       },
       x: 0,
       opacity: 1,
@@ -38,7 +38,7 @@ addEventListener("DOMContentLoaded", (event) => {
     { x: 30, opacity: 0 },
     {
       scrollTrigger: {
-        trigger: ".coffee_menu__img",
+        trigger: ".reverse",
         start: "center, center ",
       },
       x: 0,
