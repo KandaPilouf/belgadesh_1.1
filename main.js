@@ -12,7 +12,6 @@ addEventListener("DOMContentLoaded", (event) => {
       scrollTrigger: {
         trigger: ".coffee_menu__img",
         start: "top, center",
-        markers: true,
       },
       x: 0,
       opacity: 1,
